@@ -1,0 +1,59 @@
+    <!DOCTYPE  html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="css_tp.css" type="text/css">
+    <script src="surface.js"></script>
+    <title>Quicode.tn Convert</title>
+</head>
+<body>
+    <div class="title">
+        <p class="ptitle">Convertisseur de Surface</p>
+    </div>
+
+    <div class="main_page">
+
+        <div class="result">
+            <p id="result_h1"></p>
+        </div>
+
+        <div class="input_div">
+            <input class="input" id="input" type="number" placeholder="Entrer une valeur">
+            <button class="convert_button" id="convert_button" type="button" onclick="test_boucle(document.getElementById('from_select').value,document.getElementById('to_select').value,document.getElementById('input').value)")>Convertir</button>
+        </div>
+
+        <div class="from_options_div">
+            <select class="from_select" id="from_select" >
+                <option id="mm" value="mm">Millimètre Carré</option>
+                <option id="cm" value="cm">Centimètre Carré</option>
+                <option id="dm" value="dm">Decimetre Carré</option>
+                <option id="m" value="m">Mètre Carré</option>
+                <option id="dcm" value="dcm">Dicamètre Carré</option>
+                <option id="hm" value="hm">Hectomètre Carré</option>
+                <option id="km" value="km">Kilomètre Carré</option>
+            </select>
+        </div>
+
+        <div class="to_choices">
+            <div class="to_options_div">
+                <select class="to_select" id="to_select">
+                    <option id="to_mm" value="mm">Millimètre Carré</option>
+                    <option id="to_cm" value="cm">Centimètre Carré</option>
+                    <option id="to_dm" value="dm">Decimetre Carré</option>
+                    <option id="to_m" value="m">Mètre Carré</option>
+                    <option id="to_dcm" value="dcm">Dicamètre Carré</option>
+                    <option id="to_hm" value="hm">Hectomètre Carré</option>
+                    <option id="to_km" value="km">Kilomètre Carré</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

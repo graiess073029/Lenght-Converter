@@ -1,0 +1,12 @@
+.main_page{background-color: rgba(205, 240, 219, 0.684);height: 400px;width: 700px;position: relative;left: 330px;top : 120px;border: 2px black solid;border-radius:  5px 5px 5px 5px}
+.ptitle{font-size: 30px;}
+.title{position: relative;left: 510px;top: 100px;}
+.input{width: 300px;height:50px;font-size: 30px;position: relative;left: 175px;top: 160px;text-align: center;}
+.from_select{width: 140px;height:30px;font-size: 16px;position: relative;left: 210px;top: 165px;}
+.to_select{width: 140px;height:30px;font-size: 16px;position: relative;left: 360px;top: 136px;}
+.result{background-color: rgb(191, 190, 190,0.6); width: 400px;height:70px;font-size: 30px;position: relative;left: 150px;top: 110px;border: 1px solid black;border-radius:  5px 5px 5px 5px;}
+.convert_button{width: 100px;height: 56px;background-color: rgb(23, 23, 23);color: whitesmoke;border-radius: 0px 10px 10px 0px;position: relative;left: 170px;top: 154px;border: 0px;}
+.convert_button:hover{color: gold;}
+
+#result_h1{position: relative;left: 45px;bottom: 13px;}
+body{background-color: whitesmoke;}
